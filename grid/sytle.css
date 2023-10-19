@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+h1 {
+    color: black;
+    background-color: grey;
+
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: grey;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1px;
+    color: grey;
+}
+
+.grid-item {
+    background-color: black;
+    text-align: center;
+}
+
+
